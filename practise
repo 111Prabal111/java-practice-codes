@@ -6,3 +6,12 @@ class Main {
     }
 }
 //2.
+class Case_Sensitive{
+    public static void main (String[] args){
+        int Variable = 10;
+        int variable = 30;
+        System.out.println("cs "+ Variable);
+        System.out.println("cs "+ variable);
+    }
+}
+//3.
