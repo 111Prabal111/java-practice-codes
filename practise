@@ -15,3 +15,16 @@ class Case_Sensitive{
     }
 }
 //3.
+import java.util.*;
+class Main {
+    public static void main (String[] args){
+        int a, b ;
+        Scanner r = new Scanner(System.in);
+        a= r.nextInt();
+        b= r.nextInt();
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+    }
+}
