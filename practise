@@ -28,3 +28,23 @@ class Main {
         System.out.println(a/b);
     }
 }
+//4
+import java.util.*;
+class Main {
+    public static void main (String[] args){
+        int a, b ;
+        Scanner r = new Scanner(System.in);
+        System.out.println("enter value of a ,b");
+        a= r.nextInt();
+        b= r.nextInt();
+       if (a>b)
+       { System.out.print("a");
+       }
+       else if(a==b){
+           System.out.print("both are equal");
+       }
+       else{
+           System.out.println("b");
+       }
+    }
+}
