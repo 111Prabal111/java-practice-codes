@@ -131,3 +131,24 @@ class Main {
        
     }
 }
+//9
+import java.util.*;
+class Main {
+    public static void main (String[] args){
+        int a ;
+        Scanner r = new Scanner(System.in);
+        System.out.println("enter your age");
+        a= r.nextInt();
+       
+        if (a>=0 && a>=18)
+        
+      {
+          System.out.println("eligible to vote ");
+      }
+        
+      else{
+         System.out.println("not eligible to vote "); 
+      }
+       
+    }
+}
