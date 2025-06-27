@@ -84,3 +84,31 @@ class Main {
        }
     }
 }
+//7
+import java.util.*;
+class Main {
+    public static void main (String[] args){
+        int a, b ,c ;
+        Scanner r = new Scanner(System.in);
+        System.out.println("enter value of a ,b , c");
+        a= r.nextInt();
+        b= r.nextInt();
+        c= r.nextInt();
+       if(a==b && b==c){ /* Mistake 1: if(a==b==c) is invalid
+Java doesn’t support chained comparisons like Python.
+if(a == b && b == c)  */ 
+           System.out.println("all equal");   }
+       else if (a>b)
+       { 
+           if(a>c){
+           System.out.println("a");
+       }
+       }
+       else if(b>c){
+           System.out.println("b");
+       }
+       else{
+           System.out.println("c");
+       }
+    }
+}
