@@ -273,4 +273,40 @@ class Main{
 }
 }
 //16
+import java.util.*;
+class Main{
+    public static void main (String[] args)
+    {
+        System.out.println("enter a number ");
+        Scanner r = new Scanner(System.in);
+        int  b;
+        b = r.nextInt() ;
+        if(b>0&& b<100)
+        {
+            
+    if(b>90)
+        {
+            
+       System.out.println("first");
+    }
+    else if(b>80)
+        {
+            
+       System.out.println("second");
+    }
+    else if(b>70)
+        {
+            
+       System.out.println("third");
+    }
+    else 
+    
+    System.out.println("pass");
+        }
+        else 
+    
+    System.out.println("invalid");
+}
+}
+//17
 
