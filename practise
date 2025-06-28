@@ -253,3 +253,24 @@ class Main{
     System.out.println(sum);
 }
 }
+//15
+import java.util.*;
+class Main{
+    public static void main (String[] args)
+    {
+        System.out.println("enter a number ");
+        Scanner r = new Scanner(System.in);
+        int  b;
+        b = r.nextInt() ;
+        if(b>0)
+        {
+            
+       System.out.println("+");
+    }
+    else 
+    
+    System.out.println("-");
+}
+}
+//16
+
