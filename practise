@@ -321,3 +321,21 @@ class Main{
         System.out.println("circle area "+ pi*b*b);
 }
 }
+//18
+import java.util.*;
+class Main{
+    public static void main (String[] args)
+    {
+        System.out.println("enter a number ");
+        Scanner r = new Scanner(System.in);
+        int  a,b,temp;
+        a = r.nextInt() ;
+        b = r.nextInt() ;
+        
+        System.out.println("a and b "+a+" "+b);
+        temp=a;
+        a=b;
+        b=temp;
+        System.out.println("a and b "+a+" "+b);
+}
+}
