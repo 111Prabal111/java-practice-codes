@@ -190,3 +190,24 @@ class Main{
     }
 }
 //12
+import java.util.*;
+class Main{
+    public static void main (String[] args)
+    {
+        System.out.println("enter a number ");
+        Scanner r = new Scanner(System.in);
+        int i , b;
+        b = r.nextInt() ;
+        for(i=1 ; i<=b; i=i+2)
+        {
+            
+         System.out.println(i);
+        }
+        for(i=0 ; i<=b; i=i+2)
+        {
+            
+         System.out.println(i);
+        }
+       
+    }
+}
