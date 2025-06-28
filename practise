@@ -229,4 +229,27 @@ class Main{
 }
 }
 //14
-
+import java.util.*;
+class Main{
+    public static void main (String[] args)
+    {
+        System.out.println("enter a number ");
+        Scanner r = new Scanner(System.in);
+        int  b,i,sum=0;
+        b = r.nextInt() ;
+        if(b%2==0)
+        {
+            for(i=0; i<=b; i=i+2)
+            {
+                sum=sum+i;
+            }
+       System.out.println(sum);
+    }
+    else 
+    for(i=1; i<=b; i=i+2 )
+    {
+        sum=sum+i;
+    }
+    System.out.println(sum);
+}
+}
