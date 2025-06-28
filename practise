@@ -172,3 +172,21 @@ class Main {
        
     }
 }
+//11
+import java.util.*;
+class Main{
+    public static void main (String[] args)
+    {
+        System.out.println("enter a number ");
+        Scanner r = new Scanner(System.in);
+        int i , b , sum=0;
+        b = r.nextInt() ;
+        for(i=1 ; i<=b; i++)
+        {
+            sum= sum+i;
+        
+        }
+        System.out.println("sum is - "+ sum);
+    }
+}
+//12
